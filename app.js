@@ -73,7 +73,14 @@ const promptUser = () => {
             type: "input",
             name: "email",
             message: "Enter your email address:",
-            
+            validate: email => {
+                if (email) {
+                    return true;
+                } else {
+                    console.log('Please enter your email address!');
+                    return false;
+                }
+            }            
         },
         {
             type: "list",
@@ -104,21 +111,21 @@ const promptUser = () => {
 
 promptUser();
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    return fs.writeFileSync(fileName, data)
-}
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, data) {
+//     return fs.writeFileSync(fileName, data)
+// }
 
-// TODO: Create a function to initialize app
-function init() { 
-    inquirer.prompt(promptUser)
-    // write file to readmegenerated.md by using data from generateMarkdown
-    .then((data) => writeToFile('Readmegenerated.md', generateMarkdown(data)))
-    // once printed without errors, success msg is printed
-    .then(() => console.log("README successfully written!"))
-    // this will print any errors in command line 
-    .catch ((err) => console.log(err))
-}
+// // TODO: Create a function to initialize app
+// function init() { 
+//     inquirer.prompt(promptUser)
+//     // write file to readmegenerated.md by using data from generateMarkdown
+//     .then((data) => writeToFile('Readmegenerated.md', generateMarkdown(data)))
+//     // once printed without errors, success msg is printed
+//     .then(() => console.log("README successfully written!"))
+//     // this will print any errors in command line 
+//     .catch ((err) => console.log(err))
+// }
 
-// Function call to initialize app
-init();
+// // Function call to initialize app
+// init();
