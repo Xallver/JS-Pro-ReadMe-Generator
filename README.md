@@ -38,6 +38,7 @@ npm install inquirer
 
 
 ## Demo
+* [Video Demo](https://watch.screencastify.com/v/H9GfWhvfEQTMeYDFeDrw)
 
 
 ## Repository Link

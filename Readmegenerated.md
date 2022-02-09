@@ -10,11 +10,11 @@
     * [Questions/Inquiries](#Questions/Inquiries)
   
     ## Description
-    running app for people to use to track their progress. 
+    it is an application created to track users run times and distance during that run.
   
   
     ## Installation Instructions 
-    go here, click here
+    create list here for installation
   
     ## Usage Instructions
     usage info
