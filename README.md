@@ -13,13 +13,12 @@
 The Pro ReadMe Generator is a application that generates a README.md based on the user's answers to the series of questions they get asked.
 
 ## User Story
-======
-
+```
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 
-======
+```
 
 ## Contributors
 James Stanley - jamesstanley11@gmail.com 
