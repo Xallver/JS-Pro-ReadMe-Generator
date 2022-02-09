@@ -4,6 +4,7 @@
   * [Description](#Description)
   * [User Story](#User-Story)
   * [Contributors](#Contributors)
+  * [Installation](#Installation)
   * [Languages](#Languages)
   * [Demo](#Demo)
   * [Repository](#Repository-Link)
@@ -23,9 +24,15 @@ SO THAT I can quickly create a professional README for a new project
 ## Contributors
 James Stanley - jamesstanley11@gmail.com 
 
+## Installation
+* npm init
+* npm install inquirer
+
 ## Languages
 * Javascript
-* NPM - Inquirer
+* Node.js
+* Inquirer.js
+
 
 ## Demo
 

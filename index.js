@@ -7,6 +7,33 @@ const fs = require('fs');
 // TODO: Create an array of questions for user input
 const questions = [
     {
+        type: "input",
+        name: "github",
+        message: "Enter your GitHub Username: (Required)",
+        validate: githubInput => {
+            if (githubInput) {
+                return true;
+            } else {
+                console.log('Please enter your GitHub username!');
+                return false;
+            }
+        }
+
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Enter your email address:",
+        validate: email => {
+            if (email) {
+                return true;
+            } else {
+                console.log('Please enter your email address!');
+                return false;
+            }
+        }
+    },
+    {
         type: 'input',
         name: 'title',
         message: 'What is the title of your project? (Required)',
@@ -62,12 +89,12 @@ const questions = [
     {
         type: "input",
         name: "contribution",
-        message: "Enter contribution guidelines for your project:",
+        message: "Enter who contributed to your project:",
         validate: contributionInput => {
             if (contributionInput) {
                 return true;
             } else {
-                console.log('Please enter contribution guidelines.')
+                console.log('Please enter who contributed.')
                 return false;
             }
         }
@@ -85,34 +112,7 @@ const questions = [
                 return false;
             }
         }
-    },
-    {
-        type: "input",
-        name: "github",
-        message: "Enter your GitHub Username: (Required)",
-        validate: githubInput => {
-            if (githubInput) {
-                return true;
-            } else {
-                console.log('Please enter your GitHub username!');
-                return false;
-            }
-        }
-
-    },
-    {
-        type: "input",
-        name: "email",
-        message: "Enter your email address:",
-        validate: email => {
-            if (email) {
-                return true;
-            } else {
-                console.log('Please enter your email address!');
-                return false;
-            }
-        }
-    },
+    },    
     {
         type: "list",
         name: "license",
