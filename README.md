@@ -27,7 +27,9 @@ James Stanley - jamesstanley11@gmail.com
 `
 npm init
 `
-* npm install inquirer
+`
+npm install inquirer
+`
 
 ## Languages
 * Javascript
