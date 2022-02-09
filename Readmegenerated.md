@@ -1,4 +1,4 @@
-# undefined
+# Run Buddy
   
     ## Table of Contents
     * [Description](#Description)
@@ -10,29 +10,29 @@
     * [Questions/Inquiries](#Questions/Inquiries)
   
     ## Description
-    undefined
+    running app for people to use to track their progress. 
   
   
     ## Installation Instructions 
-    undefined
+    go here, click here
   
     ## Usage Instructions
-    undefined
+    usage info
   
     ## License
-    undefined
+    MIT License
   
     ## Contributing Members
-    undefined
+    James Stanley
   
     ## Testing 
-     undefined
+     test info
   
     ## Questions/Inquiries 
   
     ### GitHub Profile
-    [GitHub Profile](http://github.com/undefined)
+    [GitHub Profile](http://github.com/Xallver)
   
     ### Email
-    undefined
+    jamesstanley11@gmail.com
   

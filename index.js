@@ -8,7 +8,7 @@ const fs = require('fs');
 const questions = [
     {
         type: 'input',
-        name: 'name',
+        name: 'title',
         message: 'What is the title of your project? (Required)',
         validate: projectInput => {
             if (projectInput) {
