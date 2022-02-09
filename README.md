@@ -1,3 +1,34 @@
 # JS-Pro-ReadMe-Generator
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Table of Contents
+  * [Description](#Description)
+  * [User Story](#User-Story)
+  * [Contributors](#Contributors)
+  * [Languages](#Languages)
+  * [Demo](#Demo)
+  * [Repository](#Repository-Link)
+
+## Description
+The Pro ReadMe Generator is a application that generates a README.md based on the user's answers to the series of questions they get asked.
+
+## User Story
+======
+
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+
+======
+
+## Contributors
+James Stanley - jamesstanley11@gmail.com 
+
+## Languages
+* Javascript
+* NPM - Inquirer
+
+## Demo
+
+
+## Repository Link
+https://github.com/Xallver/JS-Pro-ReadMe-Generator
