@@ -24,7 +24,9 @@ SO THAT I can quickly create a professional README for a new project
 James Stanley - jamesstanley11@gmail.com 
 
 ## Installation
-* npm init
+`
+npm init
+`
 * npm install inquirer
 
 ## Languages
